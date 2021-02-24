@@ -1,4 +1,4 @@
-<p style="text-align:center;"><img src="deep-learning-book-goodfellow-cover.jpg" width="400" alt="Cover of the deep learning book by Goodfellow, Bengio and Courville" title="The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)">
+<img align="center" src="deep-learning-book-goodfellow-cover.jpg" width="400" alt="Cover of the deep learning book by Goodfellow, Bengio and Courville" title="The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)">
 
 **The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)**
 
