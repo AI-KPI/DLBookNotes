@@ -31,7 +31,7 @@ In addition, I noticed that creating and reading examples is really helpful to u
 
 The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningbook.org/) so you can find more details if you can't understand one specific point while you are reading it. Here is a short description of the content:
 
-1. [Scalars, Vectors, Matrices and Tensors](2_1_Scalars_Vectors_Matrices_and_Tensors.ipynb)
+1. [Scalars, Vectors, Matrices and Tensors](https://github.com/AI-KPI/DLBookNotes/blob/main/2.1%20Scalars%2C%20Vectors%2C%20Matrices%20and%20Tensors/2_1_Scalars_Vectors_Matrices_and_Tensors.ipynb)
 
     <img src="2.1 Scalars, Vectors, Matrices and Tensors/images/scalar-vector-matrix-tensor.png" width="400" alt="An example of a scalar, a vector, a matrix and a tensor" title="Difference between a scalar, a vector, a matrix and a tensor">
 
