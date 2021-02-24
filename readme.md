@@ -4,6 +4,8 @@
 </a>
 </p>
 
+## These notebooks translated into Ukrainian from the original repository [deepLearningBook-Notes](https://github.com/hadrienj/deepLearningBook-Notes)
+
 # Boost your data science skills. Learn linear algebra
 
 **The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)**
@@ -40,7 +42,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     We will see two important matrices: the identity matrix and the inverse matrix. We will see why they are important in linear algebra and how to use them with Numpy. Finally, we will see an example on how to solve a system of linear equations with the inverse matrix.
 
-4. [Linear Dependence and Span](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.4-Linear-Dependence-and-Span/)
+4. [Linear Dependence and Span](https://github.com/AI-KPI/DLBookNotes/blob/main/2.4%20Linear%20Dependence%20and%20Span/2.4%20Linear%20Dependence%20and%20Span.ipynb)
 
     <img src="2.4 Linear Dependence and Span/images/number-solutions-system-equations.png" width="700" alt="Examples of systems of equations with 0, 1 and an infinite number of solutions" title="System of equations with 0, 1 and an infinite number of solutions">
 
@@ -48,7 +50,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     In this chapter we will continue to study systems of linear equations. We will see that such systems can't have more than one solution and less than an infinite number of solutions. We will see the intuition, the graphical representation and the proof behind this statement. Then we will go back to the matrix form of the system and consider what Gilbert Strang calls the *row figure* (we are looking at the rows, that is to say multiple equations) and the *column figure* (looking at the columns, that is to say the linear combination of the coefficients). We will also see what is linear combination. Finally, we will see examples of overdetermined and underdetermined systems of equations.
 
-5. [Norms](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.5-Norms/)
+5. [Norms](https://github.com/AI-KPI/DLBookNotes/blob/main/2.5%20Norms/2_5_Norms.ipynb)
 
     <img src="2.5 Norms/images/squared-L2-Norm.png" width="400" alt="Representation of the squared L2 norm in 3 dimensions" title="Representation of the squared L2 norm in 3 dimensions">
 
@@ -56,7 +58,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     The norm of a vector is a function that takes a vector in input and outputs a positive value. It can be thought of as the *length* of the vector. It is for example used to evaluate the distance between the prediction of a model and the actual value. We will see different kinds of norms ($L^0$, $L^1$, $L^2$...) with examples.
 
-6. [Special Kinds of Matrices and Vectors](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.6-Special-Kinds-of-Matrices-and-Vectors/)
+6. [Special Kinds of Matrices and Vectors](https://github.com/AI-KPI/DLBookNotes/blob/main/2.6%20Special%20Kinds%20of%20Matrices%20and%20Vectors/2_6_Special_Kinds_of_Matrices_and_Vectors.ipynb)
 
     <img src="2.6 Special Kinds of Matrices and Vectors/images/diagonal-and-symmetric-matrices.png" width="400" alt="Example of a diagonal matrix and of a symmetric matrix" title="Example of a diagonal matrix and of a symmetric matrix">
 
@@ -64,13 +66,13 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     We have seen in [2.3](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.3-Identity-and-Inverse-Matrices/) some special matrices that are very interesting. We will see other types of vectors and matrices in this chapter. It is not a big chapter but it is important to understand the next ones.
 
-7. [Eigendecomposition](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.7-Eigendecomposition/)
+7. [Eigendecomposition](https://github.com/AI-KPI/DLBookNotes/blob/main/2.7%20Eigendecomposition/2.7%20Eigendecomposition.ipynb)
 
     <img src="2.7 Eigendecomposition/images/output_59_0.png" width="300" alt="output_59_0">
 
     We will see some major concepts of linear algebra in this chapter. We will start by getting some ideas on eigenvectors and eigenvalues. We will see that a matrix can be seen as a linear transformation and that applying a matrix on its eigenvectors gives new vectors with same direction. Then we will see how to express quadratic equations in a matrix form. We will see that the eigendecomposition of the matrix corresponding to the quadratic equation can be used to find its minimum and maximum. As a bonus, we will also see how to visualize linear transformation in Python!
 
-8. [Singular Value Decomposition](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.8-Singular-Value-Decomposition/)
+8. [Singular Value Decomposition](https://github.com/AI-KPI/DLBookNotes/blob/main/2.8%20Singular%20Value%20Decomposition/2.8%20Singular%20Value%20Decomposition.ipynb)
 
     <img src="2.8 Singular Value Decomposition/images/output_35_7.png" width="300" alt="output_35_7">
 
@@ -82,7 +84,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     We saw that not all matrices have an inverse. It is unfortunate because the inverse is used to solve system of equations. In some cases, a system of equations has no solution, and thus the inverse doesn’t exist. However it can be useful to find a value that is almost a solution (in terms of minimizing the error). This can be done with the pseudoinverse! We will see for instance how we can find the best-fit line of a set of data points with the pseudoinverse.
 
-10. [The Trace Operator](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.10-The-Trace-Operator/)
+10. [The Trace Operator](https://github.com/AI-KPI/DLBookNotes/blob/main/2.10%20The%20Trace%20Operator/2_10_The_Trace_Operator.ipynb)
 
     <img src="2.10 The Trace Operator/images/trace-matrix.png" width="200" alt="Calculating the trace of a matrix" title="Calculating the trace of a matrix">
 
@@ -90,7 +92,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     We will see what is the Trace of a matrix. It will be needed for the last chapter on the Principal Component Analysis (PCA).
 
-11. [The Determinant](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.11-The-determinant/)
+11. [The Determinant](https://github.com/AI-KPI/DLBookNotes/blob/main/2.11%20The%20determinant/2_11_The_determinant.ipynb)
 
     <img src="2.11 The determinant/images/positive-negative-determinant.png" width="400" alt="Comparison of positive and negative determinant" title="Comparison of the effect of positive and negative determinants">
 
@@ -114,4 +116,4 @@ If you find errors/misunderstandings/typos… Please report it! You can send me 
 
 Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT press.
 
-[Source](https://github.com/hadrienj/deepLearningBook-Notes)
+[Original source of used notebooks](https://github.com/hadrienj/deepLearningBook-Notes)
